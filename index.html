@@ -11,10 +11,18 @@
     <title>ウマ娘ポジショニングマップ</title>
   </head>
   <body>
-    <h1>ウマ娘ポジショニングマップ</h1>
-    <div id="container">
-        <img src="image/plotmap.png" width="1000px" height="1000px">
+    <div class="container">
+        <div class="row">
+            <h1>ウマ娘ポジショニングマップ</h1>
+        </div>
+        <div class="row">
+            <input type="y-axis" class="form-control text-center w-25" placeholder="Y軸">
+            <img src="image/plotmap.png" class="img-fluid" alt="plotmap">
+        </div>
+        <div class="row">
+        </div>
     </div>
+
     <div id="imageStockArea">
         <img src="chara/satono.jpg" class="draggable">
     </div>
@@ -34,7 +42,7 @@
     -->
 
     <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
-    
+
     <script src="index.js"></script>
   </body>
 </html>
