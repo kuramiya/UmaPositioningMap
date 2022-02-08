@@ -1,0 +1,2 @@
+# UmaPositioningMap
+ウマ娘のポジショニングマップ
