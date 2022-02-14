@@ -29,17 +29,17 @@ interact('.draggable').draggable({
 var app = new Vue({
   el: '#app',
   data: {
-    charaImgStyle: "draggable rounded charaSizeMedium",
+    charaImgStyle: "draggable rounded border charaSizeMedium",
   },
   methods: {
     changeImageSizeLarge: function(){
-      this.charaImgStyle = "draggable rounded charaSizeLarge";
+      this.charaImgStyle = "draggable rounded border charaSizeLarge";
     },
     changeImageSizeMedium: function(){
-      this.charaImgStyle = "draggable rounded charaSizeMedium";
+      this.charaImgStyle = "draggable rounded border charaSizeMedium";
     },
     changeImageSizeSmall: function(){
-      this.charaImgStyle = "draggable rounded charaSizeSmall";
+      this.charaImgStyle = "draggable rounded border charaSizeSmall";
     },
   },
 });
