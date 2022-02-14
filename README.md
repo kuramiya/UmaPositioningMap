@@ -33,20 +33,22 @@
     - ダブルクリックを検出可能
     - ダブルクリップした場合、要素を最後尾に配置するようにする
         - DOMの修正が必要
+- 完全に決め打ちにしておくのもあり
 
 ### 画像サイズ
 - 名前入り 161x263
 - アイコン画像 400x400
     - 縮小して使用する
-    - 
+- 画像サイスを変更可能にする
 
 ## 参考サイト
-
-### Konva
-https://konvajs.org/
 
 ### interact.js
 https://interactjs.io/
 
 ### bootstrap
-https://getbootstrap.com/
+https://getbootstrap.jp/docs/5.0/getting-started/introduction/
+
+### Konva
+https://konvajs.org/
+
