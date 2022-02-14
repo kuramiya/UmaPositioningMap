@@ -4,6 +4,13 @@ interact('.draggable').draggable({
   // enable inertial throwing
   inertia: true,  
 
+  modifiers: [
+    interact.modifiers.restrictRect({
+      restriction: 'container',
+      endOnly: true
+    })
+  ],
+
   listeners: {
     // start (event) {
     //   console.log(event.type, event.target)
@@ -24,7 +31,6 @@ interact('.draggable').draggable({
     },
   }
 });
-
 
 var app = new Vue({
   el: '#app',
