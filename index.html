@@ -37,14 +37,32 @@
   </head>
   <body>
     <div id="app" class="container">
-        <div class="row">
+        <div class="row p-2">
+          <div class="col text-center">
+            <h1>ウマ娘ポジショニングマップ</h1>
+          </div>        
+        </div>
+        <div class="row p-2">
           <div class="col">
-            <h1 class="text-center">ウマ娘ポジショニングマップ</h1>
+            <div class="alert alert-secondary" role="alert">
+              <h2 class="h5">使い方メモ</h2>
+              <hr>
+              <ul>
+                <li>スマホなどの縦長画面を想定しています。PCで使う場合はブラウザを縦長にすると使いやすいかもしれません。</li>
+                <li>画面サイズやアイコンサイズを変えると配置がズレます。</li>
+                <li>やり直す場合はブラウザをリロードしてください。</li>
+              </ul>  
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center m-1">
+          <div class="col">
+            <input class="form-control form-control-lg text-center m-0 p-0" placeholder="タイトル">
           </div>
         </div>
         <div class="row justify-content-center m-1">
           <div class="col-4">
-            <input class="form-control text-center m-0 p-0" placeholder="Y軸ラベル">
+            <input class="form-control form-control-md text-center m-0 p-0" placeholder="Y軸ラベル">
           </div>
         </div>
         <div class="row m-1">
@@ -52,23 +70,20 @@
             <img src="image/plotmap-left-880.png" class="img-fluid">
           </div>
           <div class="col-3 m-0 p-0 align-self-center">
-            <input class="form-control text-center m-0 p-0" placeholder="X軸ラベル">
+            <input class="form-control form-control-md text-center m-0 p-0" placeholder="X軸ラベル">
           </div>
           <div class="col-1 m-0 p-0 align-self-center">
             <img src="image/plotmap-horizontal-arrow-110.png" class="img-fluid">
           </div>
         </div>
-        <div class="row">
+        <div class="row m-2">
           <div class="col text-center">
-            <p>
-              <button type="button" class="btn btn-outline-primary" v-on:click="changeImageSizeLarge">大アイコン</button>
-              <button type="button" class="btn btn-outline-primary" v-on:click="changeImageSizeMedium">中アイコン</button>
-              <button type="button" class="btn btn-outline-primary" v-on:click="changeImageSizeSmall">小アイコン</button>  
-            </p>
-            <p>※画面サイズやアイコンサイズを変えると配置がズレます（ゆるして）</p>
-          </div>
+            <button type="button" class="btn btn-outline-primary" v-on:click="changeImageSizeLarge">大アイコン</button>
+            <button type="button" class="btn btn-outline-primary" v-on:click="changeImageSizeMedium">中アイコン</button>
+            <button type="button" class="btn btn-outline-primary" v-on:click="changeImageSizeSmall">小アイコン</button>  
         </div>
-        <div class="row border m-2 p-2">
+        </div>
+        <div class="row border p-2">
           <div class="col">
             <img src="chara/dummy1.png" v-bind:class="charaImgStyle">
             <img src="chara/dummy2.png" v-bind:class="charaImgStyle">
