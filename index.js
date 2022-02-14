@@ -1,6 +1,6 @@
 
 interact('.draggable').draggable({
-  
+
   // enable inertial throwing
   inertia: true,  
 
@@ -26,3 +26,20 @@ interact('.draggable').draggable({
 });
 
 
+var app = new Vue({
+  el: '#app',
+  data: {
+    charaImgStyle: "draggable rounded charaSizeMedium",
+  },
+  methods: {
+    changeImageSizeLarge: function(){
+      this.charaImgStyle = "draggable rounded charaSizeLarge";
+    },
+    changeImageSizeMedium: function(){
+      this.charaImgStyle = "draggable rounded charaSizeMedium";
+    },
+    changeImageSizeSmall: function(){
+      this.charaImgStyle = "draggable rounded charaSizeSmall";
+    },
+  },
+});

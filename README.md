@@ -46,14 +46,19 @@
 ### interact.js
 https://interactjs.io/
 
+#### スマホ対応
+CSSにて、touch-action: none; が大切、忘れずに  
+
 ### bootstrap
 https://getbootstrap.jp/docs/5.0/getting-started/introduction/
 
 #### マージンとパディング
-
 m-0はマージンを意味する  
 p-0はパディングを意味する  
 
-### Konva
+### Vue.js
+
+
+### Konva（使ってない）
 https://konvajs.org/
 
