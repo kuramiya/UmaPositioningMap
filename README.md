@@ -49,6 +49,11 @@ https://interactjs.io/
 ### bootstrap
 https://getbootstrap.jp/docs/5.0/getting-started/introduction/
 
+#### マージンとパディング
+
+m-0はマージンを意味する  
+p-0はパディングを意味する  
+
 ### Konva
 https://konvajs.org/
 
