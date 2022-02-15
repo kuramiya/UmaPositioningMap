@@ -59,6 +59,9 @@ p-0はパディングを意味する
 #### ブレークポイントとグリッドについて
 https://getbootstrap.jp/docs/5.0/layout/grid/
 
+col-xxx-nという表記としている場合、xxxがそのカラムの最小サイズとなる  
+画面がそれより小さくなると、二列目に移行する  
+
 #### コンテナサイズ
 https://getbootstrap.jp/docs/5.0/layout/containers/
 
