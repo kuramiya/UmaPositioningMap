@@ -56,8 +56,17 @@ https://getbootstrap.jp/docs/5.0/getting-started/introduction/
 m-0はマージンを意味する  
 p-0はパディングを意味する  
 
-### Vue.js
+#### ブレークポイントとグリッドについて
+https://getbootstrap.jp/docs/5.0/layout/grid/
 
+#### コンテナサイズ
+https://getbootstrap.jp/docs/5.0/layout/containers/
+
+100%widthとなっている場合は、ブラウザ幅に従いじわじわと拡大縮小される  
+デフォルトではカクカクとサイズが区切りで大きく、小さくなっていく 
+
+### Vue.js
+https://jp.vuejs.org/v2/guide/index.html
 
 ### Konva（使ってない）
 https://konvajs.org/
