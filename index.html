@@ -67,7 +67,7 @@
       <div class="row m-3">
         <div class="col col-auto">
           <div class="form-check">
-            <input class="form-check-input" type="radio" name="axisType" value="" id="xAxis">
+            <input class="form-check-input" type="radio" name="axisType" value="xAxis" v-model="axisType" v-on:change="axisTypeChanged">
             <label class="form-check-label" for="xAxis">
               X軸のみ
             </label>
@@ -75,7 +75,7 @@
         </div>
         <div class="col col-auto">
           <div class="form-check">
-            <input class="form-check-input" type="radio" name="axisType" value="" id="xyAxis" checked>
+            <input class="form-check-input" type="radio" name="axisType" value="xyAxis" v-model="axisType" v-on:change="axisTypeChanged">
             <label class="form-check-label" for="xyAxis">
               XY軸
             </label>
@@ -91,27 +91,27 @@
           </div>
           <div class="row justify-content-center m-1">
             <div class="col-4">
-              <input class="form-control form-control-md text-center m-0 p-0" placeholder="Y軸ラベル">
+              <input class="form-control form-control-md text-center m-0 p-0" v-bind:class="{ invisible: !isYAxisShown }" placeholder="Y軸ラベル">
             </div>
           </div>
           <div class="row m-1">
             <div class="row m-0 p-0">
-              <div class="col-6 m-0 p-0 border-2 border-dark border-bottom border-end">
+              <div class="col-6 m-0 p-0 border-2 border-dark border-bottom" v-bind:class="{ 'border-end': isYAxisShown }">
                 <div class="row m-0 p-0 h-100 align-items-end justify-content-start">
                   <div class="col-6 m-0 p-0">
                     <input class="form-control form-control-md text-center m-0 p-0" placeholder="X軸ラベル">
                   </div>
                 </div>
               </div>
-              <div class="col-6 m-0 p-0 border-2 border-dark border-bottom border-start">
+              <div class="col-6 m-0 p-0 border-2 border-dark border-bottom" v-bind:class="{ 'border-start': isYAxisShown }">
                 <img src="image/plotmap-back-null-600.png" class="img-fluid">
               </div>
             </div>
             <div class="row m-0 p-0">
-              <div class="col-6 m-0 p-0 border-2 border-dark border-top border-end">
+              <div class="col-6 m-0 p-0 border-2 border-dark border-top" v-bind:class="{ 'border-end': isYAxisShown }">
                 <img src="image/plotmap-back-null-600.png" class="img-fluid">
               </div>
-              <div class="col-6 m-0 p-0 border-2 border-dark border-top border-start">
+              <div class="col-6 m-0 p-0 border-2 border-dark border-top" v-bind:class="{ 'border-start': isYAxisShown }">
                 <div class="row m-0 p-0 h-100 align-items-start justify-content-end">
                   <div class="col-6 m-0 p-0">
                     <input class="form-control form-control-md text-center m-0 p-0" placeholder="X軸ラベル">
@@ -122,7 +122,7 @@
           </div>
           <div class="row justify-content-center m-1">
             <div class="col-4">
-              <input class="form-control form-control-md text-center m-0 p-0" placeholder="Y軸ラベル">
+              <input class="form-control form-control-md text-center m-0 p-0" v-bind:class="{ invisible: !isYAxisShown }" placeholder="Y軸ラベル">
             </div>
           </div>
         </div>

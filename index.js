@@ -36,6 +36,8 @@ var app = new Vue({
   el: '#app',
   data: {
     charaImgStyle: "draggable rounded border charaSizeMedium",
+    axisType: "xyAxis",
+    isYAxisShown: true,
   },
   methods: {
     changeImageSizeLarge: function(){
@@ -46,6 +48,16 @@ var app = new Vue({
     },
     changeImageSizeSmall: function(){
       this.charaImgStyle = "draggable rounded border charaSizeSmall";
+    },
+    axisTypeChanged: function(){
+      if(this.axisType == "xyAxis")
+      {
+        this.isYAxisShown = true;        
+      }
+      else
+      {
+        this.isYAxisShown = false;
+      }
     },
   },
 });
