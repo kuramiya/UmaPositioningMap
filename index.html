@@ -47,12 +47,12 @@
   </head>
   <body>
     <div id="app" class="container">
-      <div class="row p-2">
+      <div class="row m-2">
         <div class="col text-center">
           <h1>ウマ娘ポジショニングマップ</h1>
         </div>        
       </div>
-      <div class="row p-2">
+      <div class="row">
         <div class="col">
           <div class="alert alert-secondary" role="alert">
             <h2 class="h5">使い方メモ</h2>
@@ -64,9 +64,27 @@
           </div>
         </div>
       </div>
+      <div class="row m-3">
+        <div class="col col-auto">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="axisType" value="" id="xAxis">
+            <label class="form-check-label" for="xAxis">
+              X軸のみ
+            </label>
+          </div>  
+        </div>
+        <div class="col col-auto">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="axisType" value="" id="xyAxis" checked>
+            <label class="form-check-label" for="xyAxis">
+              XY軸
+            </label>
+          </div>
+        </div>
+      </div>
       <div class="row">
         <div class="col-lg-6">
-          <div class="row justify-content-center m-1">
+          <div class="row justify-content-center">
             <div class="col">
               <input class="form-control form-control-lg text-center m-0 p-0" placeholder="タイトル">
             </div>
