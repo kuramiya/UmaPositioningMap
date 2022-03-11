@@ -68,6 +68,11 @@ https://getbootstrap.jp/docs/5.0/layout/containers/
 100%widthとなっている場合は、ブラウザ幅に従いじわじわと拡大縮小される  
 デフォルトではカクカクとサイズが区切りで大きく、小さくなっていく 
 
+#### 絶対配置
+https://getbootstrap.jp/docs/5.0/utilities/position/
+
+これを使用して配置する
+
 ### Vue.js
 https://jp.vuejs.org/v2/guide/index.html
 

@@ -37,6 +37,7 @@ var app = new Vue({
   data: {
     charaImgStyle: "draggable rounded border charaSizeMedium",
     axisType: "xyAxis",
+    bgimgsrc: "image/plogmap-bg-xy-1320.png",
     isYAxisShown: true,
   },
   methods: {
@@ -52,11 +53,13 @@ var app = new Vue({
     axisTypeChanged: function(){
       if(this.axisType == "xyAxis")
       {
-        this.isYAxisShown = true;        
+        this.isYAxisShown = true;
+        this.bgimgsrc = "image/plogmap-bg-xy-1320.png";
       }
       else
       {
         this.isYAxisShown = false;
+        this.bgimgsrc = "image/plogmap-bg-x-1320.png";
       }
     },
   },
