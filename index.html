@@ -91,8 +91,8 @@
           </div>
           <div class="row m-1 position-relative">
             <img v-bind:src="bgimgsrc" class="img-fluid">
-            <input class="form-control position-absolute top-0 start-50 translate-middle-x w-25" v-bind:class="{ invisible: !isYAxisShown }" placeholder="Y軸ラベル">
-            <input class="form-control position-absolute bottom-0 start-50 translate-middle-x w-25" v-bind:class="{ invisible: !isYAxisShown }" placeholder="Y軸ラベル">
+            <input class="form-control position-absolute text-center top-0 start-50 translate-middle-x w-25" v-bind:class="{ invisible: !isYAxisShown }" placeholder="Y軸ラベル">
+            <input class="form-control position-absolute text-center bottom-0 start-50 translate-middle-x w-25" v-bind:class="{ invisible: !isYAxisShown }" placeholder="Y軸ラベル">
             <input class="form-control position-absolute top-50 start-0 translate-middle-y w-25" placeholder="X軸ラベル">
             <input class="form-control position-absolute top-50 end-0 translate-middle-y w-25" placeholder="X軸ラベル">
           </div>
@@ -110,6 +110,7 @@
               <img src="chara/アイネスフウジン.png" v-bind:class="charaImgStyle">
               <img src="chara/アグネスタキオン.png" v-bind:class="charaImgStyle">
               <img src="chara/アグネスデジタル.png" v-bind:class="charaImgStyle">
+              <img src="chara/アストンマーチャン.png" v-bind:class="charaImgStyle">
               <img src="chara/アドマイヤベガ.png" v-bind:class="charaImgStyle">
               <img src="chara/イクノディクタス.png" v-bind:class="charaImgStyle">
               <img src="chara/イナリワン.png" v-bind:class="charaImgStyle">
@@ -125,27 +126,32 @@
               <img src="chara/キタサンブラック.png" v-bind:class="charaImgStyle">
               <img src="chara/キングヘイロー.png" v-bind:class="charaImgStyle">
               <img src="chara/グラスワンダー.png" v-bind:class="charaImgStyle">
+              <img src="chara/コパノリッキー.png" v-bind:class="charaImgStyle">
               <img src="chara/ゴールドシチー.png" v-bind:class="charaImgStyle">
               <img src="chara/ゴールドシップ.png" v-bind:class="charaImgStyle">
               <img src="chara/サイレンススズカ.png" v-bind:class="charaImgStyle">
               <img src="chara/サクラチヨノオー.png" v-bind:class="charaImgStyle">
               <img src="chara/サクラバクシンオー.png" v-bind:class="charaImgStyle">
+              <img src="chara/サクラローレル.png" v-bind:class="charaImgStyle">
               <img src="chara/サトノダイヤモンド.png" v-bind:class="charaImgStyle">
-              <img src="chara/シーキングザパール.png" v-bind:class="charaImgStyle">
               <img src="chara/シリウスシンボリ.png" v-bind:class="charaImgStyle">
               <img src="chara/シンコウウインディ.png" v-bind:class="charaImgStyle">
+              <img src="chara/シンボリクリスエス.png" v-bind:class="charaImgStyle">
               <img src="chara/シンボリルドルフ.png" v-bind:class="charaImgStyle">
+              <img src="chara/シーキングザパール.png" v-bind:class="charaImgStyle">
               <img src="chara/スイープトウショウ.png" v-bind:class="charaImgStyle">
-              <img src="chara/スーパークリーク.png" v-bind:class="charaImgStyle">
               <img src="chara/スペシャルウィーク.png" v-bind:class="charaImgStyle">
               <img src="chara/スマートファルコン.png" v-bind:class="charaImgStyle">
+              <img src="chara/スーパークリーク.png" v-bind:class="charaImgStyle">
               <img src="chara/セイウンスカイ.png" v-bind:class="charaImgStyle">
               <img src="chara/ゼンノロブロイ.png" v-bind:class="charaImgStyle">
               <img src="chara/タイキシャトル.png" v-bind:class="charaImgStyle">
+              <img src="chara/タニノギムレット.png" v-bind:class="charaImgStyle">
+              <img src="chara/タマモクロス.png" v-bind:class="charaImgStyle">
               <img src="chara/ダイタクヘリオス.png" v-bind:class="charaImgStyle">
               <img src="chara/ダイワスカーレット.png" v-bind:class="charaImgStyle">
-              <img src="chara/タマモクロス.png" v-bind:class="charaImgStyle">
               <img src="chara/ツインターボ.png" v-bind:class="charaImgStyle">
+              <img src="chara/ツルマルツヨシ.png" v-bind:class="charaImgStyle">
               <img src="chara/テイエムオペラオー.png" v-bind:class="charaImgStyle">
               <img src="chara/トウカイテイオー.png" v-bind:class="charaImgStyle">
               <img src="chara/トーセンジョーダン.png" v-bind:class="charaImgStyle">
@@ -158,19 +164,19 @@
               <img src="chara/ハッピーミーク.png" v-bind:class="charaImgStyle">
               <img src="chara/ハルウララ.png" v-bind:class="charaImgStyle">
               <img src="chara/バンブーメモリー.png" v-bind:class="charaImgStyle">
-              <img src="chara/ビコーペガサス.png" v-bind:class="charaImgStyle">
               <img src="chara/ヒシアケボノ.png" v-bind:class="charaImgStyle">
               <img src="chara/ヒシアマゾン.png" v-bind:class="charaImgStyle">
+              <img src="chara/ビコーペガサス.png" v-bind:class="charaImgStyle">
               <img src="chara/ビターグラッセ.png" v-bind:class="charaImgStyle">
               <img src="chara/ビワハヤヒデ.png" v-bind:class="charaImgStyle">
               <img src="chara/ファインモーション.png" v-bind:class="charaImgStyle">
               <img src="chara/フジキセキ.png" v-bind:class="charaImgStyle">
-              <img src="chara/マーベラスサンデー.png" v-bind:class="charaImgStyle">
               <img src="chara/マチカネタンホイザ.png" v-bind:class="charaImgStyle">
               <img src="chara/マチカネフクキタル.png" v-bind:class="charaImgStyle">
               <img src="chara/マヤノトップガン.png" v-bind:class="charaImgStyle">
               <img src="chara/マルゼンスキー.png" v-bind:class="charaImgStyle">
               <img src="chara/マンハッタンカフェ.png" v-bind:class="charaImgStyle">
+              <img src="chara/マーベラスサンデー.png" v-bind:class="charaImgStyle">
               <img src="chara/ミスターシービー.png" v-bind:class="charaImgStyle">
               <img src="chara/ミホノブルボン.png" v-bind:class="charaImgStyle">
               <img src="chara/メイショウドトウ.png" v-bind:class="charaImgStyle">
@@ -181,13 +187,14 @@
               <img src="chara/メジロマックイーン.png" v-bind:class="charaImgStyle">
               <img src="chara/メジロライアン.png" v-bind:class="charaImgStyle">
               <img src="chara/ヤエノムテキ.png" v-bind:class="charaImgStyle">
+              <img src="chara/ヤマニンゼファー.png" v-bind:class="charaImgStyle">
               <img src="chara/ユキノビジン.png" v-bind:class="charaImgStyle">
               <img src="chara/ライスシャワー.png" v-bind:class="charaImgStyle">
               <img src="chara/リトルココン.png" v-bind:class="charaImgStyle">
-              <img src="chara/安心沢刺々美.png" v-bind:class="charaImgStyle">
               <img src="chara/乙名史悦子.png" v-bind:class="charaImgStyle">
-              <img src="chara/樫本理子.png" v-bind:class="charaImgStyle">
+              <img src="chara/安心沢刺々美.png" v-bind:class="charaImgStyle">
               <img src="chara/桐生院葵.png" v-bind:class="charaImgStyle">
+              <img src="chara/樫本理子.png" v-bind:class="charaImgStyle">
               <img src="chara/秋川やよい.png" v-bind:class="charaImgStyle">
               <img src="chara/駿川たづな.png" v-bind:class="charaImgStyle">
             </div>
