@@ -52,23 +52,36 @@ var app = new Vue({
       this.charaImgStyle = "draggable rounded border charaSizeSmall";
     },
     axisTypeChanged: function(){
-      if(this.axisType == "xyAxis")
-      {
-        this.isXAxisShown = true;
-        this.isYAxisShown = true;
-        this.bgimgsrc = "image/plogmap-bg-xy-1320.png";
-      }
-      else if(this.axisType == "xAxis")
+      if(this.axisType == "xAxis")
       {
         this.isXAxisShown = true;
         this.isYAxisShown = false;
         this.bgimgsrc = "image/plogmap-bg-x-1320.png";
       }
-      else
+      else if(this.axisType == "yAxis")
       {
         this.isXAxisShown = false;
         this.isYAxisShown = true;
         this.bgimgsrc = "image/plogmap-bg-y-1320.png";
+      }
+      else if(this.axisType == "rlAxis")
+      {
+        this.isXAxisShown = true;
+        this.isYAxisShown = false;
+        this.bgimgsrc = "image/plogmap-bg-y-1320.png";
+      }
+      else if(this.axisType == "udAxis")
+      {
+        this.isXAxisShown = false;
+        this.isYAxisShown = true;
+        this.bgimgsrc = "image/plogmap-bg-x-1320.png";
+      }
+      else
+      {
+        //  xyAxis
+        this.isXAxisShown = true;
+        this.isYAxisShown = true;
+        this.bgimgsrc = "image/plogmap-bg-xy-1320.png";
       }
     },
   },
