@@ -67,6 +67,14 @@
       <div class="row m-3">
         <div class="col col-auto">
           <div class="form-check">
+            <input class="form-check-input" type="radio" name="axisType" value="xyAxis" v-model="axisType" v-on:change="axisTypeChanged">
+            <label class="form-check-label" for="xyAxis">
+              XY軸
+            </label>
+          </div>
+        </div>
+        <div class="col col-auto">
+          <div class="form-check">
             <input class="form-check-input" type="radio" name="axisType" value="xAxis" v-model="axisType" v-on:change="axisTypeChanged">
             <label class="form-check-label" for="xAxis">
               X軸のみ
@@ -75,14 +83,15 @@
         </div>
         <div class="col col-auto">
           <div class="form-check">
-            <input class="form-check-input" type="radio" name="axisType" value="xyAxis" v-model="axisType" v-on:change="axisTypeChanged">
-            <label class="form-check-label" for="xyAxis">
-              XY軸
+            <input class="form-check-input" type="radio" name="axisType" value="yAxis" v-model="axisType" v-on:change="axisTypeChanged">
+            <label class="form-check-label" for="yAxis">
+              Y軸のみ
             </label>
-          </div>
+          </div>  
         </div>
       </div>
-      <div class="row">
+    </div>
+    <div class="row">
         <div class="col-lg-8">
           <div class="row justify-content-center">
             <div class="col">
@@ -93,8 +102,8 @@
             <img v-bind:src="bgimgsrc" class="img-fluid">
             <input class="form-control position-absolute text-center top-0 start-50 translate-middle-x w-25" v-bind:class="{ invisible: !isYAxisShown }" placeholder="Y軸ラベル">
             <input class="form-control position-absolute text-center bottom-0 start-50 translate-middle-x w-25" v-bind:class="{ invisible: !isYAxisShown }" placeholder="Y軸ラベル">
-            <input class="form-control position-absolute top-50 start-0 translate-middle-y w-25" placeholder="X軸ラベル">
-            <input class="form-control position-absolute top-50 end-0 translate-middle-y w-25" placeholder="X軸ラベル">
+            <input class="form-control position-absolute top-50 start-0 translate-middle-y w-25" v-bind:class="{ invisible: !isXAxisShown }" placeholder="X軸ラベル">
+            <input class="form-control position-absolute top-50 end-0 translate-middle-y w-25" v-bind:class="{ invisible: !isXAxisShown }" placeholder="X軸ラベル">
           </div>
         </div>
         <div class="col-lg-4">
