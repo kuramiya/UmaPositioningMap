@@ -12,6 +12,7 @@
 <img src="chara/ウオッカ.png" v-bind:class="charaImgStyle">
 <img src="chara/エアグルーヴ.png" v-bind:class="charaImgStyle">
 <img src="chara/エアシャカール.png" v-bind:class="charaImgStyle">
+<img src="chara/エアメサイア.png" v-bind:class="charaImgStyle">
 <img src="chara/エイシンフラッシュ.png" v-bind:class="charaImgStyle">
 <img src="chara/エルコンドルパサー.png" v-bind:class="charaImgStyle">
 <img src="chara/オグリキャップ.png" v-bind:class="charaImgStyle">
@@ -59,6 +60,7 @@
 <img src="chara/ツインターボ.png" v-bind:class="charaImgStyle">
 <img src="chara/ツルマルツヨシ.png" v-bind:class="charaImgStyle">
 <img src="chara/デアリングタクト.png" v-bind:class="charaImgStyle">
+<img src="chara/デアリングハート.png" v-bind:class="charaImgStyle">
 <img src="chara/テイエムオペラオー.png" v-bind:class="charaImgStyle">
 <img src="chara/トウカイテイオー.png" v-bind:class="charaImgStyle">
 <img src="chara/ドゥラメンテ.png" v-bind:class="charaImgStyle">
@@ -104,6 +106,7 @@
 <img src="chara/ユキノビジン.png" v-bind:class="charaImgStyle">
 <img src="chara/ライスシャワー.png" v-bind:class="charaImgStyle">
 <img src="chara/ライトハロー.png" v-bind:class="charaImgStyle">
+<img src="chara/ラインクラフト.png" v-bind:class="charaImgStyle">
 <img src="chara/リガントーナ.png" v-bind:class="charaImgStyle">
 <img src="chara/リトルココン.png" v-bind:class="charaImgStyle">
 <img src="chara/ロイスアンドロイス.png" v-bind:class="charaImgStyle">
