@@ -102,6 +102,7 @@
 <img src="chara/ブエナビスタ.png" v-bind:class="charaImgStyle">
 <img src="chara/フサイチパンドラ.png" v-bind:class="charaImgStyle">
 <img src="chara/フジキセキ.png" v-bind:class="charaImgStyle">
+<img src="chara/ブラストワンピース.png" v-bind:class="charaImgStyle">
 <img src="chara/フリオーソ.png" v-bind:class="charaImgStyle">
 <img src="chara/ホッコータルマエ.png" v-bind:class="charaImgStyle">
 <img src="chara/マーベラスサンデー.png" v-bind:class="charaImgStyle">
