@@ -33,6 +33,7 @@
 <img src="chara/コパノリッキー.png" v-bind:class="charaImgStyle">
 <img src="chara/サイレンススズカ.png" v-bind:class="charaImgStyle">
 <img src="chara/サウンズオブアース.png" v-bind:class="charaImgStyle">
+<img src="chara/サクラチトセオー.png" v-bind:class="charaImgStyle">
 <img src="chara/サクラチヨノオー.png" v-bind:class="charaImgStyle">
 <img src="chara/サクラバクシンオー.png" v-bind:class="charaImgStyle">
 <img src="chara/サクラローレル.png" v-bind:class="charaImgStyle">
