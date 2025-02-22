@@ -149,4 +149,4 @@
 <img src="chara/佐岳メイ.png" v-bind:class="charaimgstyle">
 <img src="chara/秋川やよい.png" v-bind:class="charaimgstyle">
 <img src="chara/駿川たづな.png" v-bind:class="charaimgstyle">
-<img src="chara/都留岐涼花.png v-bind:class="charaimgstyle">
+<img src="chara/都留岐涼花.png" v-bind:class="charaimgstyle">
