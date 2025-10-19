@@ -143,6 +143,7 @@
 <img src="chara/ラッキーライラック.png" v-bind:class="charaImgStyle">
 <img src="chara/リガントーナ.png" v-bind:class="charaImgStyle">
 <img src="chara/リトルココン.png" v-bind:class="charaImgStyle">
+<img src="chara/レッドディザイア.png" v-bind:class="charaImgStyle">
 <img src="chara/ロイスアンドロイス.png" v-bind:class="charaImgStyle">
 <img src="chara/ワンダーアキュート.png" v-bind:class="charaImgStyle">
 <img src="chara/安心沢刺々美.png" v-bind:class="charaImgStyle">
