@@ -26,6 +26,7 @@
 <img src="chara/カレンチャン.png" v-bind:class="charaImgStyle">
 <img src="chara/カレンブーケドール.png" v-bind:class="charaImgStyle">
 <img src="chara/カワカミプリンセス.png" v-bind:class="charaImgStyle">
+<img src="chara/キセキ.png" v-bind:class="charaImgStyle">
 <img src="chara/キタサンブラック.png" v-bind:class="charaImgStyle">
 <img src="chara/キングヘイロー.png" v-bind:class="charaImgStyle">
 <img src="chara/グラスワンダー.png" v-bind:class="charaImgStyle">
