@@ -72,6 +72,7 @@
 <img src="chara/ダイイチルビー.png" v-bind:class="charaImgStyle">
 <img src="chara/タイキシャトル.png" v-bind:class="charaImgStyle">
 <img src="chara/ダイタクヘリオス.png" v-bind:class="charaImgStyle">
+<img src="chara/タイトルホルダー.png" v-bind:class="charaImgStyle">
 <img src="chara/ダイワスカーレット.png" v-bind:class="charaImgStyle">
 <img src="chara/タッカーブライン.png" v-bind:class="charaImgStyle">
 <img src="chara/タップダンスシチー.png" v-bind:class="charaImgStyle">
