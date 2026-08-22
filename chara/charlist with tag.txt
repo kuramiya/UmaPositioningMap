@@ -20,6 +20,7 @@
 <img src="chara/エイシンフラッシュ.png" v-bind:class="charaImgStyle">
 <img src="chara/エスポワールシチー.png" v-bind:class="charaImgStyle">
 <img src="chara/エピファネイア.png" v-bind:class="charaImgStyle">
+<img src="chara/エフフォーリア.png" v-bind:class="charaImgStyle">
 <img src="chara/エルコンドルパサー.png" v-bind:class="charaImgStyle">
 <img src="chara/オグリキャップ.png" v-bind:class="charaImgStyle">
 <img src="chara/オルフェーヴル.png" v-bind:class="charaImgStyle">
@@ -49,6 +50,7 @@
 <img src="chara/サムソンビッグ.png" v-bind:class="charaImgStyle">
 <img src="chara/シーキングザパール.png" v-bind:class="charaImgStyle">
 <img src="chara/シーザリオ.png" v-bind:class="charaImgStyle">
+<img src="chara/ジェニュイン.png" v-bind:class="charaImgStyle">
 <img src="chara/ジェンティルドンナ.png" v-bind:class="charaImgStyle">
 <img src="chara/ジャングルポケット.png" v-bind:class="charaImgStyle">
 <img src="chara/シュヴァルグラン.png" v-bind:class="charaImgStyle">
@@ -113,6 +115,7 @@
 <img src="chara/ビリーヴ.png" v-bind:class="charaImgStyle">
 <img src="chara/ビワハヤヒデ.png" v-bind:class="charaImgStyle">
 <img src="chara/ファインモーション.png" v-bind:class="charaImgStyle">
+<img src="chara/ファレノプシス.png" v-bind:class="charaImgStyle">
 <img src="chara/ブエナビスタ.png" v-bind:class="charaImgStyle">
 <img src="chara/フェノーメノ.png" v-bind:class="charaImgStyle">
 <img src="chara/フォーエバーヤング.png" v-bind:class="charaImgStyle">
